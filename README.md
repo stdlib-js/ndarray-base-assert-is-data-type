@@ -49,7 +49,7 @@ npm install @stdlib/ndarray-base-assert-is-data-type
 ## Usage
 
 ```javascript
-var isDataType = require( '@stdlib/ndarray-base-assert-is/data/type' );
+var isDataType = require( '@stdlib/ndarray-base-assert-is-data-type' );
 ```
 
 #### isDataType( value )
@@ -85,7 +85,7 @@ bool = isDataType( 'int32' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var isDataType = require( '@stdlib/ndarray-base-assert-is/data/type' );
+var isDataType = require( '@stdlib/ndarray-base-assert-is-data-type' );
 
 var bool = isDataType( 'binary' );
 // returns true
