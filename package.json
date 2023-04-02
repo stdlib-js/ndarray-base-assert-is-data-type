@@ -37,6 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array-base-assert-contains": "github:stdlib-js/array-base-assert-contains#main",
     "@stdlib/ndarray-dtypes": "^0.0.9"
   },
   "devDependencies": {
