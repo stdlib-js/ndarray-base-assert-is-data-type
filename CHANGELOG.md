@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-06-20)
+
+<section class="features">
+
+### Features
+
+-   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - add support for struct data types
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - **feat:** add support for struct data types _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)

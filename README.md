@@ -75,7 +75,7 @@ var isDataType = require( '@stdlib/ndarray-base-assert-is-data-type' );
 
 #### isDataType( value )
 
-Tests if an input `value` is a supported ndarray data type.
+Tests if an input value is a supported ndarray data type.
 
 ```javascript
 var bool = isDataType( 'float32' );
@@ -92,6 +92,10 @@ bool = isDataType( 'int32' );
 <!-- Package usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="notes">
+
+## Notes
+
+-   The function returns `true` when provided any supported ndarray [data type][@stdlib/ndarray/dtypes] and when provided a [struct][@stdlib/dstructs/struct] constructor describing a fixed-width composite data type.
 
 </section>
 
@@ -239,6 +243,10 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-assert-is-data-type/main/LICENSE
+
+[@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
+
+[@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct
 
 </section>
 

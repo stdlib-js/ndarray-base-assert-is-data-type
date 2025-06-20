@@ -38,10 +38,12 @@
   },
   "dependencies": {
     "@stdlib/array-base-assert-contains": "^0.2.2",
+    "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main",
     "@stdlib/ndarray-dtypes": "^0.3.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
+    "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
