@@ -37,13 +37,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-assert-contains": "^0.2.2",
-    "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main",
-    "@stdlib/ndarray-dtypes": "^0.3.0"
+    "@stdlib/ndarray-base-assert-is-data-type-object": "github:stdlib-js/ndarray-base-assert-is-data-type-object#main",
+    "@stdlib/ndarray-base-assert-is-data-type-string": "github:stdlib-js/ndarray-base-assert-is-data-type-string#main",
+    "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
     "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
+    "@stdlib/ndarray-dtype-ctor": "github:stdlib-js/ndarray-dtype-ctor#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",

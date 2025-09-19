@@ -95,7 +95,7 @@ bool = isDataType( 'int32' );
 
 ## Notes
 
--   The function returns `true` when provided any supported ndarray [data type][@stdlib/ndarray/dtypes] and when provided a [struct][@stdlib/dstructs/struct] constructor describing a fixed-width composite data type.
+-   The function returns `true` when provided any supported ndarray [data type][@stdlib/ndarray/dtypes], a [struct][@stdlib/dstructs/struct] constructor describing a fixed-width composite data type, or a [`DataType`][@stdlib/ndarray/dtype-ctor] instance.
 
 </section>
 
@@ -191,11 +191,6 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
-## License
-
-See [LICENSE][stdlib-license].
-
-
 ## Copyright
 
 Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
@@ -242,9 +237,9 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [esm-readme]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/ndarray-base-assert-is-data-type/blob/main/branches.md
 
-[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-assert-is-data-type/main/LICENSE
-
 [@stdlib/ndarray/dtypes]: https://github.com/stdlib-js/ndarray-dtypes
+
+[@stdlib/ndarray/dtype-ctor]: https://github.com/stdlib-js/ndarray-dtype-ctor
 
 [@stdlib/dstructs/struct]: https://github.com/stdlib-js/dstructs-struct
 

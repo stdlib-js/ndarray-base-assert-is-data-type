@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-20)
+## Unreleased (2025-09-19)
 
 <section class="features">
 
 ### Features
 
+-   [`34a957c`](https://github.com/stdlib-js/stdlib/commit/34a957cac3f76bac1f00c5366802096b05c30e65) - add support for `DataType` instances
 -   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - add support for struct data types
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`34a957c`](https://github.com/stdlib-js/stdlib/commit/34a957cac3f76bac1f00c5366802096b05c30e65) - **feat:** add support for `DataType` instances _(by Athan Reines)_
 -   [`eac188f`](https://github.com/stdlib-js/stdlib/commit/eac188f4def9fa545e9e0cfcd5731a66337fcd1a) - **feat:** add support for struct data types _(by Athan Reines)_
 
 </details>

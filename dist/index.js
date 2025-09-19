@@ -1,5 +1,57 @@
-"use strict";var i=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var a=i(function(q,t){
-var s=require('@stdlib/ndarray-base-assert-is-struct-data-type/dist'),u=require('@stdlib/array-base-assert-contains/dist').factory,c=require('@stdlib/ndarray-dtypes/dist'),n=u(c());function p(r){return n(r)||s(r)}t.exports=p
-});var o=a();module.exports=o;
 /** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
+
+'use strict';
+
+/**
+* Test whether an input value is a supported ndarray data type.
+*
+* @module @stdlib/ndarray-base-assert-is-data-type
+*
+* @example
+* var isDataType = require( '@stdlib/ndarray-base-assert-is-data-type' );
+*
+* var bool = isDataType( 'binary' );
+* // returns true
+*
+* bool = isDataType( 'float32' );
+* // returns true
+*
+* bool = isDataType( 'float64' );
+* // returns true
+*
+* bool = isDataType( 'generic' );
+* // returns true
+*
+* bool = isDataType( 'int16' );
+* // returns true
+*
+* bool = isDataType( 'int32' );
+* // returns true
+*
+* bool = isDataType( 'int8' );
+* // returns true
+*
+* bool = isDataType( 'uint16' );
+* // returns true
+*
+* bool = isDataType( 'uint32' );
+* // returns true
+*
+* bool = isDataType( 'uint8' );
+* // returns true
+*
+* bool = isDataType( 'uint8c' );
+* // returns true
+*
+* bool = isDataType( 'foo' );
+* // returns false
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
