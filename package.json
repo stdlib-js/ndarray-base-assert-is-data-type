@@ -39,7 +39,8 @@
   "dependencies": {
     "@stdlib/ndarray-base-assert-is-data-type-object": "github:stdlib-js/ndarray-base-assert-is-data-type-object#main",
     "@stdlib/ndarray-base-assert-is-data-type-string": "github:stdlib-js/ndarray-base-assert-is-data-type-string#main",
-    "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main"
+    "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
