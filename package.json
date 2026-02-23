@@ -37,18 +37,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-base-assert-is-data-type-object": "github:stdlib-js/ndarray-base-assert-is-data-type-object#main",
-    "@stdlib/ndarray-base-assert-is-data-type-string": "github:stdlib-js/ndarray-base-assert-is-data-type-string#main",
-    "@stdlib/ndarray-base-assert-is-struct-data-type": "github:stdlib-js/ndarray-base-assert-is-struct-data-type#main"
+    "@stdlib/ndarray-base-assert-is-data-type-object": "^0.0.1",
+    "@stdlib/ndarray-base-assert-is-data-type-string": "^0.1.1",
+    "@stdlib/ndarray-base-assert-is-struct-data-type": "^0.1.1"
   },
   "devDependencies": {
-    "@stdlib/assert-is-boolean": "^0.2.2",
-    "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
-    "@stdlib/ndarray-dtype-ctor": "github:stdlib-js/ndarray-dtype-ctor#main",
+    "@stdlib/assert-is-boolean": "^0.2.3",
+    "@stdlib/dstructs-struct": "^0.1.1",
+    "@stdlib/ndarray-dtype-ctor": "^0.1.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
@@ -88,7 +88,6 @@
     "validation",
     "isvalid"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
